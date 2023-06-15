@@ -74,4 +74,5 @@ $$= \frac{i(i - 1)(2i - 1) + 3i(i - 1)}{6} = \frac{1}{3} (i^3 + i^2 - i^2 - i) =
 
 we can plug the simplified summation in the previous formula:
 
-$$a_i = \bcancel{i} + \cancel{3} \frac{1}{\cancel{3}}(i^3 - \bcancel{i}) = i^3
+$$a_i = \bcancel{i} + \cancel{3} \frac{1}{\cancel{3}}(i^3 - \bcancel{i}) = i^3$$
+
