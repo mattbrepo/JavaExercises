@@ -50,7 +50,7 @@ $$k_i = 1 + \sum_{j = 1}^i m_{j - 1}$$
 
 $$m_i = \sum_{j = 0}^i 6 = (i + 1) \cdot 6$$
 
-where _c1_, _k1_, _m1_ are the values at the end of the first loop where _i_ is equal to 1. We can now write:
+where _c1_, _k1_ and _m1_ are the values at the end of the first loop where _i_ is equal to 1. We can now write:
 
 $$a_i = \sum_{j = 0}^{i - 1} k_j = \sum_{j = 0}^{i - 1} (1 + \sum_{l = 1}^j m_{l-1}) = \sum_{j = 0}^{i - 1} (1 + \sum_{l = 1}^j l \cdot 6) = \sum_{j = 0}^{i - 1} 1 + \sum_{j = 0}^{i - 1} \sum_{l = 1}^j l \cdot 6 $$
 
